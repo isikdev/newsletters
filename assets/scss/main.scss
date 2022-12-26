@@ -1,0 +1,272 @@
+@import "_root";
+@import "_elements";
+@import "_responsive";
+@import url("../font/stylesheet.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s;
+    font-family: "Mail Sans Roman";
+}
+body,
+html {
+    font-size: 14px;
+    scroll-behavior: smooth;
+    background-color: $white;
+}
+.wrapper {
+    max-width: 680px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px 52px;
+}
+.user {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        h1 {
+            display: flex;
+            align-items: center;
+            font-family: "Arial", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            color: $gray;
+            span {
+                margin: 0 8px 0 12px;
+            }
+        }
+    }
+}
+.info {
+    margin: 20px 0;
+    &__intro {
+        h2 {
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 46px;
+            color: $black;
+        }
+        p {
+            font-family: "Arial", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 12px 0;
+        }
+    }
+    &__cards {
+        background: #d1e1ff;
+        margin: 32px 0;
+        padding: 32px;
+        border-radius: 28px;
+    }
+    &__card-intro {
+        h3 {
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 36px;
+        }
+    }
+    &__card-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    &__card-item {
+        padding: 20px 8px;
+        border-radius: 20px;
+        background-color: $blue;
+        color: #fff;
+        max-width: 160px;
+        text-align: center;
+        h3 {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 26px;
+        }
+        p {
+            font-family: "Arial", sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px;
+            margin-top: 4px;
+        }
+    }
+}
+.about {
+    margin: 32px 0;
+    padding: 50px 52px 100px 52px;
+    border-radius: 28px;
+    background-image: url("/assets/img/kiberbulling.svg"), $blue-gradient;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    &__intro {
+        h2 {
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 46px;
+        }
+        p {
+            //styleName: Desktop  /  Body;
+            font-family: "Arial", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 12px 0 32px 0;
+        }
+    }
+}
+.post {
+    margin: 32px 0;
+    padding: 32px 0;
+    border-radius: 32px;
+    background-color: #fff;
+    &__intro {
+        padding: 0 52px;
+        h3 {
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 36px;
+        }
+        p {
+            margin-top: 8px;
+            font-family: "Arial";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            margin-bottom: 30px;
+        }
+    }
+}
+.post__dinamo {
+    padding: 0 0 64px 0;
+    .post__img {
+        img {
+            border-top-left-radius: 32px;
+            border-top-right-radius: 32px;
+        }
+    }
+}
+.surprise {
+    padding: 52px 50px 200px 50px;
+    text-align: center;
+    color: #fff;
+    border-radius: 28px;
+    background-color: $blue;
+    background-image: url("/assets/img/surprise.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    &__intro {
+        h3 {
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 46px;
+        }
+        p {
+            font-family: "Arial", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            margin-top: 12px;
+            margin-bottom: 32px;
+        }
+    }
+}
+.plans {
+    padding: 48px 48px;
+    margin: 32px 0;
+    background-color: #d1e1ff;
+    border-radius: 32px;
+    &__intro {
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 46px;
+        }
+        p {
+            font-family: "Arial", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 12px 0;
+        }
+    }
+}
+.support {
+    background-color: #e7dcf4;
+    padding: 40px 50px;
+    border-radius: 32px;
+    &__content {
+        display: flex;
+    }
+    &__intro {
+        margin-left: 32px;
+        h3 {
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 36px;
+        }
+    }
+    &__intro-description {
+        margin-top: 12px;
+        margin-bottom: 24px;
+        p {
+            font-family: "Arial", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+        h1 {
+            font-family: "Arial", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            color: $gray;
+        }
+    }
+}
+footer {
+    margin-top: 40px;
+}
+.footer {
+    &__social {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__social-item {
+        display: flex;
+        a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    }
+    &__text {
+        margin-top: 24px;
+    }
+    &__menu {
+        nav {
+            ul {
+                li {
+                    list-style: none;
+                    margin: 20px auto;
+                    a {
+                        text-decoration: none;
+                        color: $blue;
+                        font-family: "Arial", sans-serif;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+    &__brand {
+        margin-top: 24px;
+    }
+}

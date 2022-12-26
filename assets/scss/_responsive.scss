@@ -1,0 +1,76 @@
+@media screen and (max-width: 650px) {
+    .wrapper {
+        max-width: 100%;
+    }
+    .user__title {
+        display: none;
+    }
+    .info__card-wrapper {
+        flex-direction: column;
+    }
+    .info__card-item {
+        margin: 20px auto;
+    }
+    .post__dinamo .post__img img {
+        max-width: 100%;
+    }
+    .support__content {
+        flex-direction: column;
+    }
+    .support__intro {
+        margin-left: 0 !important;
+        margin-top: 12px;
+    }
+    .footer__social {
+        flex-direction: column;
+        margin-top: 12px !important;
+    }
+    .about__intro h2 {
+        font-size: 20px !important;
+        font-weight: 500;
+        line-height: 32px;
+    }
+    .info__intro h2 {
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+    .info__intro p {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .info__card-intro h3 {
+        font-size: 20px !important;
+        line-height: 26px !important;
+    }
+    .about__intro p {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .post__intro h3 {
+        font-size: 20px !important;
+        font-weight: 500 !important;
+    }
+    .post__intro p {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .surprise__intro h3 {
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+    .surprise__intro p {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .plans__intro h2 {
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+    .support__intro h3 {
+        font-size: 20px !important;
+        line-height: 26px !important;
+    }
+    .post__img img {
+        max-width: 100%;
+    }
+}

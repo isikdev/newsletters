@@ -1,0 +1,365 @@
+@import url("../font/stylesheet.css");
+.main__btn {
+  padding: 13px 26px;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.post__btn {
+  background-color: #005FF9;
+}
+
+.about__btn {
+  background-color: #000;
+}
+
+.footer__subtitle {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #919399;
+}
+
+.link__subtitle {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #005FF9;
+}
+
+@media screen and (max-width: 650px) {
+  .wrapper {
+    max-width: 100%;
+  }
+  .user__title {
+    display: none;
+  }
+  .info__card-wrapper {
+    flex-direction: column;
+  }
+  .info__card-item {
+    margin: 20px auto;
+  }
+  .post__dinamo .post__img img {
+    max-width: 100%;
+  }
+  .support__content {
+    flex-direction: column;
+  }
+  .support__intro {
+    margin-left: 0 !important;
+    margin-top: 12px;
+  }
+  .footer__social {
+    flex-direction: column;
+    margin-top: 12px !important;
+  }
+  .about__intro h2 {
+    font-size: 20px !important;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .info__intro h2 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+  .info__intro p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .info__card-intro h3 {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+  .about__intro p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .post__intro h3 {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+  }
+  .post__intro p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .surprise__intro h3 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+  .surprise__intro p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .plans__intro h2 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+  .support__intro h3 {
+    font-size: 20px !important;
+    line-height: 26px !important;
+  }
+  .post__img img {
+    max-width: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s;
+  font-family: "Mail Sans Roman";
+}
+
+body,
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+  background-color: #F0F1F3;
+}
+
+.wrapper {
+  max-width: 680px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 20px 52px;
+}
+
+.user__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user__title h1 {
+  display: flex;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #919399;
+}
+.user__title h1 span {
+  margin: 0 8px 0 12px;
+}
+
+.info {
+  margin: 20px 0;
+}
+.info__intro h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+  color: #2C2D2E;
+}
+.info__intro p {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 12px 0;
+}
+.info__cards {
+  background: #d1e1ff;
+  margin: 32px 0;
+  padding: 32px;
+  border-radius: 28px;
+}
+.info__card-intro h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.info__card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.info__card-item {
+  padding: 20px 8px;
+  border-radius: 20px;
+  background-color: #005FF9;
+  color: #fff;
+  max-width: 160px;
+  text-align: center;
+}
+.info__card-item h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.info__card-item p {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 4px;
+}
+
+.about {
+  margin: 32px 0;
+  padding: 50px 52px 100px 52px;
+  border-radius: 28px;
+  background-image: url("/assets/img/kiberbulling.svg"), linear-gradient(126.03deg, rgba(91, 168, 255, 0.9) 0.66%, #ffffff 47.4%, #97f7ff 106.23%);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.about__intro h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+}
+.about__intro p {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 12px 0 32px 0;
+}
+
+.post {
+  margin: 32px 0;
+  padding: 32px 0;
+  border-radius: 32px;
+  background-color: #fff;
+}
+.post__intro {
+  padding: 0 52px;
+}
+.post__intro h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.post__intro p {
+  margin-top: 8px;
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.post__dinamo {
+  padding: 0 0 64px 0;
+}
+.post__dinamo .post__img img {
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+}
+
+.surprise {
+  padding: 52px 50px 200px 50px;
+  text-align: center;
+  color: #fff;
+  border-radius: 28px;
+  background-color: #005FF9;
+  background-image: url("/assets/img/surprise.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.surprise__intro h3 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+}
+.surprise__intro p {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.plans {
+  padding: 48px 48px;
+  margin: 32px 0;
+  background-color: #d1e1ff;
+  border-radius: 32px;
+}
+.plans__intro h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 46px;
+}
+.plans__intro p {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 12px 0;
+}
+
+.support {
+  background-color: #e7dcf4;
+  padding: 40px 50px;
+  border-radius: 32px;
+}
+.support__content {
+  display: flex;
+}
+.support__intro {
+  margin-left: 32px;
+}
+.support__intro h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.support__intro-description {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.support__intro-description p {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.support__intro-description h1 {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #919399;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social-item {
+  display: flex;
+}
+.footer__social-item a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer__text {
+  margin-top: 24px;
+}
+.footer__menu nav ul li {
+  list-style: none;
+  margin: 20px auto;
+}
+.footer__menu nav ul li a {
+  text-decoration: none;
+  color: #005FF9;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.footer__brand {
+  margin-top: 24px;
+}
